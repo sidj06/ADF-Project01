@@ -1,0 +1,19 @@
+{
+	"name": "inputaswlanding",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Linked_service_blob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "3.1 Customer_Valid.json",
+				"container": "input-aws"
+			}
+		},
+		"schema": {}
+	}
+}
