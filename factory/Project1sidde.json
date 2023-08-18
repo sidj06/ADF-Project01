@@ -1,0 +1,9 @@
+{
+	"name": "Project1sidde",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "13e3785f-a37f-42b3-b1c2-6fa1acfb4a85",
+		"tenantId": "a8e4bac2-f112-4577-ae14-184985086a3c"
+	}
+}
