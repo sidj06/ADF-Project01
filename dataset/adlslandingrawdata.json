@@ -1,0 +1,19 @@
+{
+	"name": "adlslandingrawdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_service_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "landing/connected_vehicle/Non_confidential/2023/08",
+				"fileSystem": "input"
+			}
+		},
+		"schema": {}
+	}
+}
