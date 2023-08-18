@@ -13,9 +13,6 @@
 		},
 		"linked_service_adls_properties_typeProperties_url": {
 			"value": "https://projectde01.dfs.core.windows.net/"
-		},
-		"Storage event trigger_properties_typeProperties_scope": {
-			"value": "/subscriptions/63a10f88-4534-476a-b0ff-a850246ac2af/resourceGroups/project001/providers/Microsoft.Storage/storageAccounts/projectde01blob"
 		}
 	}
 }
